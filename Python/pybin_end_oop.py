@@ -75,7 +75,7 @@ class BinProcessor:
 
 
 FMT = "<Id16s8s"
-INPUT_FILE = "data.bin"
+INPUT_FILE = "../C/data.bin"
 OUTPUT_FILE = "output.txt"
 
 binarnik = BinProcessor(INPUT_FILE, OUTPUT_FILE, FMT)
